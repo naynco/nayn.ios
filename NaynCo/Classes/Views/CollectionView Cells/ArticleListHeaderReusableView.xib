@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ArticleListHeader" id="Qgb-YR-hcU" customClass="ArticleListHeaderReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJa-27-5gG">
+                    <rect key="frame" x="-3" y="27.5" width="24" height="5"/>
+                    <color key="backgroundColor" red="1" green="0.81960784313725488" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="32g-uh-wtD"/>
+                        <constraint firstAttribute="height" constant="5" id="Ma2-ne-R2h"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRh-4l-oeN">
+                    <rect key="frame" x="31" y="0.0" width="64" height="60"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
+                    <color key="textColor" red="1" green="0.81960784310000001" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qJa-27-5gG" firstAttribute="centerY" secondItem="TRh-4l-oeN" secondAttribute="centerY" id="2Cq-Vc-JkZ"/>
+                <constraint firstItem="qJa-27-5gG" firstAttribute="leading" secondItem="Qgb-YR-hcU" secondAttribute="leading" constant="-3" id="Dee-ro-21u"/>
+                <constraint firstItem="Mnb-Mj-8Dp" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TRh-4l-oeN" secondAttribute="trailing" constant="16" id="JUG-o5-h6Q"/>
+                <constraint firstItem="TRh-4l-oeN" firstAttribute="top" secondItem="Mnb-Mj-8Dp" secondAttribute="top" id="arM-Ib-jd5"/>
+                <constraint firstItem="TRh-4l-oeN" firstAttribute="leading" secondItem="qJa-27-5gG" secondAttribute="trailing" constant="10" id="lhj-Ub-ieL"/>
+                <constraint firstItem="Mnb-Mj-8Dp" firstAttribute="bottom" secondItem="TRh-4l-oeN" secondAttribute="bottom" constant="10" id="vPM-ez-gro"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Mnb-Mj-8Dp"/>
+            <connections>
+                <outlet property="separatorView" destination="qJa-27-5gG" id="gxA-rY-Y8g"/>
+                <outlet property="titleLabel" destination="TRh-4l-oeN" id="4MP-Zy-lRY"/>
+            </connections>
+            <point key="canvasLocation" x="11.5" y="-100.5"/>
+        </collectionReusableView>
+    </objects>
+</document>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GT America Condensed Bold Italic.otf">
+            <string>GTAmerica-CondensedBoldItalic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TitleCell" id="u1q-rh-lIl" customClass="ArticleDetailTitleCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="238"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="238"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1R-Re-61L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="238"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="999" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdZ-hT-WfH">
+                                <rect key="frame" x="15" y="59" width="384" height="78"/>
+                                <fontDescription key="fontDescription" name="GTAmerica-CondensedBoldItalic" family="GT America" pointSize="30"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8S-TH-VmB">
+                                <rect key="frame" x="16" y="145" width="339.5" height="14"/>
+                                <fontDescription key="fontDescription" name="GTAmerica-CondensedBoldItalic" family="GT America" pointSize="12"/>
+                                <color key="textColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kvo-K1-H3W" customClass="SkewedGradientView">
+                                <rect key="frame" x="15" y="22" width="74.5" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ml-SR-Qdz">
+                                        <rect key="frame" x="12" y="6" width="45.5" height="13"/>
+                                        <fontDescription key="fontDescription" name="GTAmerica-CondensedBoldItalic" family="GT America" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4Ml-SR-Qdz" secondAttribute="bottom" constant="6" id="2Gu-Bg-EGS"/>
+                                    <constraint firstItem="4Ml-SR-Qdz" firstAttribute="top" secondItem="Kvo-K1-H3W" secondAttribute="top" constant="6" id="JCu-I2-8wJ"/>
+                                    <constraint firstItem="4Ml-SR-Qdz" firstAttribute="leading" secondItem="Kvo-K1-H3W" secondAttribute="leading" constant="12" id="JPf-EI-aHU"/>
+                                    <constraint firstAttribute="height" constant="25" id="awb-Oa-1qD"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Ml-SR-Qdz" secondAttribute="trailing" constant="17" id="eTG-bB-FRT"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbT-Ga-OPM">
+                                <rect key="frame" x="15" y="180" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kqf-KO-nvZ"/>
+                                    <constraint firstAttribute="width" constant="40" id="m9w-cJ-Dxb"/>
+                                </constraints>
+                                <state key="normal" image="share-whatsapp"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0j-kR-nUn">
+                                <rect key="frame" x="67" y="180" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LOb-bj-GVw"/>
+                                    <constraint firstAttribute="width" constant="40" id="uHf-Cw-qAj"/>
+                                </constraints>
+                                <state key="normal" image="share-facebook"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnh-rp-eEu">
+                                <rect key="frame" x="119" y="180" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="PyT-rb-Msv"/>
+                                    <constraint firstAttribute="height" constant="40" id="uhi-sY-pHo"/>
+                                </constraints>
+                                <state key="normal" image="share-twitter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voo-DL-uYt">
+                                <rect key="frame" x="171" y="180" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="W13-bM-kBz"/>
+                                    <constraint firstAttribute="height" constant="40" id="eRb-2m-q26"/>
+                                </constraints>
+                                <state key="normal" image="share-messenger"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SdZ-hT-WfH" firstAttribute="leading" secondItem="c1R-Re-61L" secondAttribute="leading" constant="15" id="0DJ-ZD-4fH"/>
+                            <constraint firstItem="mnh-rp-eEu" firstAttribute="leading" secondItem="i0j-kR-nUn" secondAttribute="trailing" constant="12" id="0S5-x6-ngk"/>
+                            <constraint firstAttribute="width" constant="414" id="9xK-VF-IZA"/>
+                            <constraint firstItem="i0j-kR-nUn" firstAttribute="centerY" secondItem="cbT-Ga-OPM" secondAttribute="centerY" id="AUR-W6-WxL"/>
+                            <constraint firstItem="Kvo-K1-H3W" firstAttribute="top" secondItem="c1R-Re-61L" secondAttribute="top" constant="22" id="Kfd-Rg-TrG"/>
+                            <constraint firstAttribute="bottom" secondItem="cbT-Ga-OPM" secondAttribute="bottom" constant="18" id="NEY-Ia-Faw"/>
+                            <constraint firstItem="cbT-Ga-OPM" firstAttribute="top" secondItem="Z8S-TH-VmB" secondAttribute="bottom" constant="21" id="PDq-UG-Tgp"/>
+                            <constraint firstItem="Kvo-K1-H3W" firstAttribute="leading" secondItem="c1R-Re-61L" secondAttribute="leading" constant="15" id="Qwl-CK-sgP"/>
+                            <constraint firstItem="mnh-rp-eEu" firstAttribute="centerY" secondItem="i0j-kR-nUn" secondAttribute="centerY" id="RA5-se-aHf"/>
+                            <constraint firstItem="Voo-DL-uYt" firstAttribute="leading" secondItem="mnh-rp-eEu" secondAttribute="trailing" constant="12" id="RZ7-ZV-RZr"/>
+                            <constraint firstItem="SdZ-hT-WfH" firstAttribute="top" secondItem="Kvo-K1-H3W" secondAttribute="bottom" constant="12" id="U9J-jk-ZIq"/>
+                            <constraint firstItem="Z8S-TH-VmB" firstAttribute="top" secondItem="SdZ-hT-WfH" secondAttribute="bottom" constant="8" id="ccf-IS-luC"/>
+                            <constraint firstAttribute="trailing" secondItem="SdZ-hT-WfH" secondAttribute="trailing" constant="15" id="e2o-9H-MNB"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Kvo-K1-H3W" secondAttribute="trailing" constant="15" id="e5L-55-T3k"/>
+                            <constraint firstItem="i0j-kR-nUn" firstAttribute="leading" secondItem="cbT-Ga-OPM" secondAttribute="trailing" constant="12" id="eNR-xR-a9K"/>
+                            <constraint firstItem="Z8S-TH-VmB" firstAttribute="leading" secondItem="c1R-Re-61L" secondAttribute="leading" constant="16" id="fqf-NR-3S2"/>
+                            <constraint firstItem="cbT-Ga-OPM" firstAttribute="leading" secondItem="c1R-Re-61L" secondAttribute="leading" constant="15" id="ozs-7Y-guk"/>
+                            <constraint firstAttribute="trailing" secondItem="Z8S-TH-VmB" secondAttribute="trailing" constant="58.5" id="txM-Ez-zBo"/>
+                            <constraint firstItem="Voo-DL-uYt" firstAttribute="centerY" secondItem="mnh-rp-eEu" secondAttribute="centerY" id="xCH-dx-Ebe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="c1R-Re-61L" firstAttribute="top" secondItem="u1q-rh-lIl" secondAttribute="top" id="D6J-ca-xJp"/>
+                <constraint firstAttribute="trailing" secondItem="c1R-Re-61L" secondAttribute="trailing" id="ezG-rS-i2S"/>
+                <constraint firstAttribute="bottom" secondItem="c1R-Re-61L" secondAttribute="bottom" id="n6h-Qg-RfB"/>
+                <constraint firstItem="c1R-Re-61L" firstAttribute="leading" secondItem="u1q-rh-lIl" secondAttribute="leading" id="tkw-VY-iDP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fKQ-r1-bdB"/>
+            <size key="customSize" width="362" height="238"/>
+            <connections>
+                <outlet property="categoryBackgroundView" destination="Kvo-K1-H3W" id="fmc-k5-YrY"/>
+                <outlet property="categoryLabel" destination="4Ml-SR-Qdz" id="OKh-jj-4Rh"/>
+                <outlet property="contentViewWidthConstraint" destination="9xK-VF-IZA" id="SUs-zB-9Md"/>
+                <outlet property="descriptionTitle" destination="SdZ-hT-WfH" id="Qmq-U5-gJo"/>
+                <outlet property="facebookButton" destination="i0j-kR-nUn" id="QQg-Pt-I7e"/>
+                <outlet property="messengerButton" destination="Voo-DL-uYt" id="iKs-TG-Tdh"/>
+                <outlet property="timeLabel" destination="Z8S-TH-VmB" id="C4u-Os-Rdj"/>
+                <outlet property="twitterButton" destination="mnh-rp-eEu" id="cHW-sf-Uyg"/>
+                <outlet property="whatsappButton" destination="cbT-Ga-OPM" id="Dfc-nj-nBL"/>
+            </connections>
+            <point key="canvasLocation" x="160" y="90"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="share-facebook" width="41" height="40"/>
+        <image name="share-messenger" width="41" height="42"/>
+        <image name="share-twitter" width="41" height="42"/>
+        <image name="share-whatsapp" width="40" height="40"/>
+    </resources>
+</document>

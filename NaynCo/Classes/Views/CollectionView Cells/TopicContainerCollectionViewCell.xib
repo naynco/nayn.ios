@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopicContainerCell" id="Avt-OU-VLu" customClass="TopicContainerCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKA-jk-2JI">
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="120"/>
+                        <subviews>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Xj3-Mr-g3J" customClass="EmbeddedCollectionView">
+                                <rect key="frame" x="0.0" y="0.0" width="360" height="120"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="MML-Uk-vQT"/>
+                                    <constraint firstAttribute="height" constant="120" id="ivh-Uq-sfp"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Gxf-TR-GH8">
+                                    <size key="itemSize" width="268" height="134"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xj3-Mr-g3J" firstAttribute="top" secondItem="TKA-jk-2JI" secondAttribute="top" id="1th-Ow-MSZ"/>
+                            <constraint firstItem="Xj3-Mr-g3J" firstAttribute="leading" secondItem="TKA-jk-2JI" secondAttribute="leading" id="4r8-rp-VLv"/>
+                            <constraint firstAttribute="trailing" secondItem="Xj3-Mr-g3J" secondAttribute="trailing" id="IvW-R6-hPe"/>
+                            <constraint firstAttribute="bottom" secondItem="Xj3-Mr-g3J" secondAttribute="bottom" id="Kfl-Vd-QVg"/>
+                            <constraint firstAttribute="height" constant="120" id="nGy-vJ-PU0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TKA-jk-2JI" secondAttribute="trailing" id="3bD-iw-p6E"/>
+                <constraint firstItem="TKA-jk-2JI" firstAttribute="leading" secondItem="Avt-OU-VLu" secondAttribute="leading" id="Bqd-CF-aMA"/>
+                <constraint firstItem="TKA-jk-2JI" firstAttribute="top" secondItem="Avt-OU-VLu" secondAttribute="top" id="DWA-L4-plD"/>
+                <constraint firstAttribute="bottom" secondItem="TKA-jk-2JI" secondAttribute="bottom" constant="20" id="Vgu-kX-wpZ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="deB-7r-zWb"/>
+            <size key="customSize" width="334" height="121"/>
+            <connections>
+                <outlet property="collectionView" destination="Xj3-Mr-g3J" id="FMm-E0-yHu"/>
+                <outlet property="contentViewWidthConstraint" destination="MML-Uk-vQT" id="Jfl-Lu-bDh"/>
+            </connections>
+            <point key="canvasLocation" x="17" y="-16"/>
+        </collectionViewCell>
+    </objects>
+</document>

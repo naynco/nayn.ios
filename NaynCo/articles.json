@@ -1,0 +1,242 @@
+{
+  "articles": [
+    {
+      "id": 123456,
+      "title": "Ibrahimovic, Manchester United’la yeniden 1 yıllık sözleşme imzaladı",
+      "summary": "Manchester United’la sözleşmesi sona eren, yaşadığı sakatlık sonrasında futbolu bırakacağı iddia edilen İsveçli golcü Zlatan geleceği belli oldu.",
+               "content": "<div class=\"entry-content\"><p>Taksim Gezi Parkı’nda eylemcilerin çadırlarının yakılması ile ilgili olarak “Çadırları toplamakla uğraşmayın, yakın gitsin” şeklinde talimat verdiği iddiasıyla yargılanan ve 15 Temmuz darbe girişimi sonrasında meslekten ihraç edilen dönemin Beyoğlu’dan sorumlu İl Emniyet Müdür Yardımcısı Ramazan Emekli hakkındaki ceza belli oldu. Mahkeme, sanık Ramazan Emekli hakkında “Görevi kötüye kullanma” ve “Genel güvenliğin kasten tehlikeye sokulması” suçlarından toplam 10 ay hapis cezası verdi.</p><p>Mahkeme verdiği hapis cezası ile ilgili olarak hükmün açıklanmasının geri bırakılmasına da karar verdi.</p><p></p><div class=\"embed-container\"><iframe src=\"https://www.youtube.com/embed/YFf5ApNPvtM?feature=oembed\" frameborder=\"0\" allowfullscreen=\"\"> frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen&gt;</iframe></div><p></p><div class=\"clearfix\"></div></div>",
+      "createdAt": "2018-03-01T14:31:50.025Z",
+      "updatedAt": "2018-03-01T14:31:50.025Z",
+      "images": {
+        "large": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1920x1080.jpg",
+        "medium": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1024x576.jpg",
+        "thumbnail": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-290x163.jpg"
+      },
+      "category": {
+        "id": 12,
+        "name": "SPOR"
+      }
+    },
+    {
+      "id": 123456,
+      "title": "Facebook iki ayrı haber kaynağı özelliğinden vazgeçti",
+      "summary": "Facebook bir süredir üzerinde çalıştığı iki ayrı haber kaynağı güncellemesini durdurduğunu açıkladı.",
+      "content": "",
+      "createdAt": "2018-03-01T14:31:50.025Z",
+      "updatedAt": "2018-03-01T14:31:50.025Z",
+      "images": {
+        "large": "https://nayn.co/wp-content/uploads/2016/07/facebook-1269x635.png",
+        "medium": "https://nayn.co/wp-content/uploads/2016/07/facebook-1024x512.png",
+        "thumbnail": "https://nayn.co/wp-content/uploads/2016/07/facebook-290x145.png"
+      },
+      "category": {
+        "id": 11,
+        "name": "SICAK"
+      }
+    },
+    {
+      "id": 123456,
+      "title": "En zengin Suudi prens, özgürlüğü uğruna servetini Veliaht Prens’e sunuyor",
+      "summary": "Suudi Veliaht Prensi Muhammed bin Selman’ın (MbS) kasım ayında başlattığı yolsuzlukla mücadele operasyonlarında gözaltına alınanlardan biri olan Prens el Velid bin Talal, yaklaşık üç ay gözaltında tutulup 27 Ocak’ta bırakılması sonrası ilk mülakatını verdi.",
+      "content": "",
+      "createdAt": "2018-03-20T14:31:50.025Z",
+      "updatedAt": "2018-03-20T14:31:50.025Z",
+      "images": {
+        "large": "https://nayn.co/wp-content/uploads/2018/03/Prens_Velid_icin_6_milyar_dolar_isteniyor.jpg",
+        "medium": "https://nayn.co/wp-content/uploads/2018/03/Prens_Velid_icin_6_milyar_dolar_isteniyor.jpg",
+        "thumbnail": "https://nayn.co/wp-content/uploads/2018/03/Prens_Velid_icin_6_milyar_dolar_isteniyor.jpg"
+      },
+      "category": {
+        "id": 13,
+        "name": "DÜNYA"
+      }
+    },
+    {
+      "id": 123456,
+      "title": "KKTC’den ‘Çiftlik Bank açıklaması: “Bizimle alakası yok”",
+      "summary": "Kuzey Kıbrıs Maliye Bakanı Serdar Denktaş, “Adı geçen oyunla binlerce kişi dolandırılmış, bizimle ne ilgisi var?” diye sordu.",
+      "content": "",
+      "createdAt": "2018-03-20T14:31:50.025Z",
+      "updatedAt": "2018-03-20T14:31:50.025Z",
+      "images": {
+        "large": "https://nayn.co/wp-content/uploads/2018/03/5a458f7fae7849232c3e121c-1024x576.jpeg",
+        "medium": "https://nayn.co/wp-content/uploads/2018/03/5a458f7fae7849232c3e121c-768x432.jpeg",
+        "thumbnail": "https://nayn.co/wp-content/uploads/2018/03/5a458f7fae7849232c3e121c-300x169.jpeg"
+      },
+      "category": {
+        "id": 14,
+        "name": "GÜNDEM"
+      }
+    },
+               {
+               "id": 123456,
+               "title": "Bir Çocukluk Efsanesi: Kaptan Tsubasa",
+               "summary": "Çocukluğumuzun bizi ekrana kilitleyen efsane çizgi filmlerinden Kaptan Tsubasa’yı kim unutabilir? Tabii ki kimse ama biz yine de hafızaları bir tazeleyelim dedik.",
+               "content": "",
+               "createdAt": "2018-03-28T14:31:50.025Z",
+               "updatedAt": "2018-03-28T14:31:50.025Z",
+               "images": {
+               "large": "https://nayn.co/wp-content/uploads/2018/03/captain-tsubasa-1024x576.jpg",
+               "medium": "https://nayn.co/wp-content/uploads/2018/03/captain-tsubasa-768x432.jpg",
+               "thumbnail": "https://nayn.co/wp-content/uploads/2018/03/captain-tsubasa-300x169.jpg"
+               },
+               "category": {
+               "id": 15,
+               "name": "SOSYAL"
+               }
+               },
+               {
+               "id": 123456,
+               "title": "Stranger Things Millie Bobby Brown’a 12 milyon lira ödeyecek",
+               "summary": "Stranger Things dizisinin 14 yaşındaki oyuncusu Millie Bobby Brown’a yeni sezon bölümleri için toplam 3,2 milyon dolar (ortalama 12 milyon lira) ödenecek…",
+               "content": "<div class=\"entry-content\"><p>Stranger Things dizisinin 14 yaşındaki oyuncusu Millie Bobby Brown’a yeni sezon bölümleri için toplam 3,2 milyon dolar (ortalama 12 milyon lira) ödenecek…</p><p></p><div class=\"embed-container\"><iframe src=\"//giphy.com/embed/xTkcExqBx71OapB4jK\" frameborder=\"0\" allowfullscreen=\"\"> width=\"480\" height=\"360\" frameborder=\"0\"&gt;</iframe></div><p></p><p>Üçüncü sezonuyla ekrana gelecek olan Netflix dizisinde Brown’la birlikte pek çok çocuk oyuncu rol alsa da Brown en yüksek ücreti alan isim oldu.</p><p></p><div class=\"embed-container\"><iframe src=\"//giphy.com/embed/xTkcEyuFSXE5Za6DKM\" frameborder=\"0\" allowfullscreen=\"\"> width=\"480\" height=\"360\" frameborder=\"0\"&gt;</iframe></div><p></p><p>TMZ’nin haberine göre 14 yaşındaki Brown, üçüncü sezonda bölüm başına 350 bin dolar kazanacak.</p><p>&nbsp;</p><div class=\"clearfix\"></div></div>",
+               "createdAt": "2018-03-28T14:31:50.025Z",
+               "updatedAt": "2018-03-28T14:31:50.025Z",
+               "images": {
+               "large": "https://nayn.co/wp-content/uploads/2018/04/converse-first-day-feels-hed-2017-1024x512.jpg",
+               "medium": "https://nayn.co/wp-content/uploads/2018/04/converse-first-day-feels-hed-2017-768x384.jpg",
+               "thumbnail": "https://nayn.co/wp-content/uploads/2018/04/converse-first-day-feels-hed-2017-300x150.jpg"
+               },
+               "category": {
+               "id": 16,
+               "name": "SANAT"
+               }
+               }
+  ],
+    "topics": [
+    {
+               "title": "Kudüs Meselesi",
+               "imageURL": "https://nayn.co/wp-content/uploads/2017/06/kudus.jpg",
+               "description": "ABD Başkanı Donald Trump'ın Kudüs'ü İsrail'in başkenti olarak ilan etmesi Orta Doğu'da diplomatik bir krize dönüştü.",
+               "articles": [
+                            {
+                            "id": 123456,
+                            "title": "Netenyahu’nun yargılanması sürüyor",
+                            "summary": "Manchester United’la sözleşmesi sona eren, yaşadığı sakatlık sonrasında futbolu bırakacağı iddia edilen İsveçli golcü Zlatan geleceği belli oldu.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1920x1080.jpg",
+                            "medium": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1024x576.jpg",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2016/11/000_Nic6346272.jpg"
+                            },
+                            "category": {
+                            "id": 12,
+                            "name": "SPOR"
+                            }
+                            },
+                            {
+                            "id": 123456,
+                            "title": "Son Dakika / Trump, Kudüs’ü İsrail’in Başkenti Olarak Tanıdı",
+                            "summary": "Facebook bir süredir üzerinde çalıştığı iki ayrı haber kaynağı güncellemesini durdurduğunu açıkladı.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2016/07/facebook-1269x635.png",
+                            "medium": "https://nayn.co/wp-content/uploads/2016/07/facebook-1024x512.png",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2017/12/1031292521.jpg"
+                            },
+                            "category": {
+                            "id": 11,
+                            "name": "SICAK"
+                            }
+                            },
+                            {
+                            "id": 123456,
+                            "title": "ABD’nin Ankara Büyükelçiliği önünde Kudüs protestosu",
+                            "summary": "Manchester United’la sözleşmesi sona eren, yaşadığı sakatlık sonrasında futbolu bırakacağı iddia edilen İsveçli golcü Zlatan geleceği belli oldu.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1920x1080.jpg",
+                            "medium": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1024x576.jpg",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2017/12/1031292665.jpg"
+                            },
+                            "category": {
+                            "id": 12,
+                            "name": "SPOR"
+                            }
+                            }
+                            ]
+    },
+               {
+               "title": "Afrin Harekatı",
+               "imageURL": "https://nayn.co/wp-content/uploads/2018/03/afrin-1920x650.jpg",
+               "description": "Türkiye koridor açmak üzere Afrin'de operasyona başladı. ",
+               "articles": [
+                            {
+                            "id": 123456,
+                            "title": "Afrin’de Harita 24 Saatte Değişti! Kuşatma Altındaki Tüm Bölgeler Temizlendi",
+                            "summary": "Manchester United’la sözleşmesi sona eren, yaşadığı sakatlık sonrasında futbolu bırakacağı iddia edilen İsveçli golcü Zlatan geleceği belli oldu.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1920x1080.jpg",
+                            "medium": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1024x576.jpg",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2018/03/gettyimages-908735324.jpg"
+                            },
+                            "category": {
+                            "id": 12,
+                            "name": "SPOR"
+                            }
+                            },
+                            {
+                            "id": 123456,
+                            "title": "Özel Kuvvetler Afrin’de operasyona başladı",
+                            "summary": "Manchester United’la sözleşmesi sona eren, yaşadığı sakatlık sonrasında futbolu bırakacağı iddia edilen İsveçli golcü Zlatan geleceği belli oldu.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1920x1080.jpg",
+                            "medium": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1024x576.jpg",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2018/03/%C3%96K.jpg"
+                            },
+                            "category": {
+                            "id": 12,
+                            "name": "SPOR"
+                            }
+                            },
+                            {
+                            "id": 123456,
+                            "title": "Erdoğan, “Afrin’le Devam Edeceğiz!” Dedi, Sınırda Askeri Araçlar Devriyeye Başladı",
+                            "summary": "Facebook bir süredir üzerinde çalıştığı iki ayrı haber kaynağı güncellemesini durdurduğunu açıkladı.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2016/07/facebook-1269x635.png",
+                            "medium": "https://nayn.co/wp-content/uploads/2016/07/facebook-1024x512.png",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2016/07/Tank-Pics.jpg"
+                            },
+                            "category": {
+                            "id": 11,
+                            "name": "SICAK"
+                            }
+                            },
+                            {
+                            "id": 123456,
+                            "title": "Terör örgütü kontrolündeki Afrin bölgesine komando birlikleri sevk edildi",
+                            "summary": "Manchester United’la sözleşmesi sona eren, yaşadığı sakatlık sonrasında futbolu bırakacağı iddia edilen İsveçli golcü Zlatan geleceği belli oldu.",
+                            "content": "",
+                            "createdAt": "2018-03-01T14:31:50.025Z",
+                            "updatedAt": "2018-03-01T14:31:50.025Z",
+                            "images": {
+                            "large": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1920x1080.jpg",
+                            "medium": "https://nayn.co/wp-content/uploads/2017/08/promo318597047-1024x576.jpg",
+                            "thumbnail": "https://nayn.co/wp-content/uploads/2017/09/maxresdefault-4.jpg"
+                            },
+                            "category": {
+                            "id": 12,
+                            "name": "SPOR"
+                            }
+                            }
+                            ]
+               }
+               
+    ]
+}

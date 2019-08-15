@@ -1,0 +1,317 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.10.8):
+    - Fabric (~> 1.7.12)
+  - DTFoundation (1.7.13):
+    - DTFoundation/AppKit (= 1.7.13)
+    - DTFoundation/Core (= 1.7.13)
+    - DTFoundation/Debug (= 1.7.13)
+    - DTFoundation/DTAnimatedGIF (= 1.7.13)
+    - DTFoundation/DTASN1 (= 1.7.13)
+    - DTFoundation/DTAsyncFileDeleter (= 1.7.13)
+    - DTFoundation/DTAWS (= 1.7.13)
+    - DTFoundation/DTHTMLParser (= 1.7.13)
+    - DTFoundation/DTProgressHUD (= 1.7.13)
+    - DTFoundation/DTReachability (= 1.7.13)
+    - DTFoundation/DTScripting (= 1.7.13)
+    - DTFoundation/DTSidePanel (= 1.7.13)
+    - DTFoundation/DTSQLite (= 1.7.13)
+    - DTFoundation/DTUTI (= 1.7.13)
+    - DTFoundation/DTZipArchive (= 1.7.13)
+    - DTFoundation/Runtime (= 1.7.13)
+    - DTFoundation/UIKit (= 1.7.13)
+    - DTFoundation/UIKit_BlocksAdditions (= 1.7.13)
+  - DTFoundation/Core (1.7.13)
+  - DTFoundation/Debug (1.7.13):
+    - DTFoundation/Core
+    - DTFoundation/Runtime
+  - DTFoundation/DTAnimatedGIF (1.7.13)
+  - DTFoundation/DTASN1 (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTAsyncFileDeleter (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTAWS (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTHTMLParser (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTProgressHUD (1.7.13):
+    - DTFoundation/Core
+    - DTFoundation/UIKit
+  - DTFoundation/DTReachability (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTScripting (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTSidePanel (1.7.13):
+    - DTFoundation/UIKit
+  - DTFoundation/DTSQLite (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/DTUTI (1.7.13)
+  - DTFoundation/DTZipArchive (1.7.13):
+    - DTFoundation/DTZipArchive/Minizip (= 1.7.13)
+  - DTFoundation/DTZipArchive/Minizip (1.7.13)
+  - DTFoundation/Runtime (1.7.13)
+  - DTFoundation/UIKit (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/UIKit_BlocksAdditions (1.7.13):
+    - DTFoundation/Core
+  - Fabric (1.7.12)
+  - FBSDKCoreKit (4.37.0):
+    - Bolts (~> 1.7)
+  - FBSDKMessengerShareKit (1.3.2)
+  - FBSDKShareKit (4.37.0):
+    - FBSDKCoreKit (~> 4.37.0)
+  - Firebase/Core (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.2.0)
+  - Firebase/CoreOnly (5.9.0):
+    - FirebaseCore (= 5.1.4)
+  - Firebase/Messaging (5.9.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.1.2)
+  - Firebase/Performance (5.9.0):
+    - Firebase/Core
+    - FirebasePerformance (= 2.1.2)
+  - Firebase/RemoteConfig (5.9.0):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 3.0.1)
+  - FirebaseABTesting (2.0.0):
+    - FirebaseCore (~> 5.0)
+    - Protobuf (~> 3.5)
+  - FirebaseAnalytics (5.2.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.1.4):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.2.2):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.1.2):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - FirebasePerformance (2.1.2):
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/ISASwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseRemoteConfig (3.0.1):
+    - FirebaseABTesting (~> 2.0)
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - Protobuf (~> 3.5)
+  - FLAnimatedImage (1.0.12)
+  - GiphyCoreSDK (1.4.0)
+  - GoogleAnalytics (3.17.0)
+  - GoogleAppMeasurement (5.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleToolboxForMac/Core (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSString+HTML (2.1.4)":
+    - GoogleToolboxForMac/Core (= 2.1.4)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/ISASwizzler (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.0)"
+  - GoogleUtilities/Reachability (5.3.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.0)
+  - HTMLKit (2.1.5)
+  - InsightfulPager (0.1.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.1.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NSAttributedString-DDHTML (1.2.0)
+  - Protobuf (3.6.1)
+  - Reveal-SDK (11)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SMPageControl (1.2)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.0):
+    - TwitterCore (>= 3.1.0)
+  - XLPagerTabStrip (3.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Crashlytics
+  - DTFoundation
+  - Fabric
+  - FBSDKMessengerShareKit
+  - FBSDKShareKit
+  - Firebase/Core
+  - Firebase/Messaging
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - FLAnimatedImage
+  - GiphyCoreSDK (from `https://github.com/seyfeddin/giphy-ios-sdk-core.git`, branch `master`)
+  - GoogleAnalytics
+  - "GoogleToolboxForMac/NSString+HTML"
+  - HTMLKit
+  - InsightfulPager
+  - Mantle
+  - Masonry
+  - NSAttributedString-DDHTML
+  - Reveal-SDK (= 11)
+  - SDWebImage
+  - SMPageControl
+  - TwitterKit
+  - XLPagerTabStrip (from `https://github.com/xmartlabs/XLPagerTabStrip.git`, branch `obj-c`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bolts
+    - Crashlytics
+    - DTFoundation
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKMessengerShareKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FLAnimatedImage
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - HTMLKit
+    - InsightfulPager
+    - Mantle
+    - Masonry
+    - nanopb
+    - NSAttributedString-DDHTML
+    - Protobuf
+    - Reveal-SDK
+    - SDWebImage
+    - SMPageControl
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  GiphyCoreSDK:
+    :branch: master
+    :git: https://github.com/seyfeddin/giphy-ios-sdk-core.git
+  XLPagerTabStrip:
+    :branch: obj-c
+    :git: https://github.com/xmartlabs/XLPagerTabStrip.git
+
+CHECKOUT OPTIONS:
+  GiphyCoreSDK:
+    :commit: a916302190b4d1e48a67a1430eefcce55027d768
+    :git: https://github.com/seyfeddin/giphy-ios-sdk-core.git
+  XLPagerTabStrip:
+    :commit: d053e5067fb439fe41d11991f11a757d7248103c
+    :git: https://github.com/xmartlabs/XLPagerTabStrip.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: 058dc1ba579f6c100bc60a6878703779bff383c4
+  DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
+  Fabric: d7387db9a31aadff63b147a4b91d982c53afaa4f
+  FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
+  FBSDKMessengerShareKit: 41c0b1a667d685c9433f993eb9611b3d5074e1cb
+  FBSDKShareKit: 52e0083222c38e930eb6878007478326599195c3
+  Firebase: 383fa29aca93e371cab776b48a5c66544d3c2003
+  FirebaseABTesting: 1f50b8d50f5e3469eea54e7463a7b7fe221d1f5e
+  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
+  FirebaseCore: 2a84b6b325792a4319ef71ee18819dcba08d2fd7
+  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
+  FirebaseMessaging: d6feeb06218d2675b4149b0ada925a6b707a74cf
+  FirebasePerformance: 65f7eb943ef3cc118899f945065ff9fa2d924e52
+  FirebaseRemoteConfig: 7b6d675dfb11f0e0e638caee00908b06af150d56
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GiphyCoreSDK: 1d183a29aee1ae05cd62af0aa316f143c5f121ca
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  HTMLKit: 91dbd983c94f264c6ddea27d317f5a66368dd20b
+  InsightfulPager: 190a4b71e895488051c052d2e956e8fbe1d4a631
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NSAttributedString-DDHTML: 59a7bcd44b92cb7f6f6ef26f52c4baad6b1d01ba
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  Reveal-SDK: 7fa13d04bb55db61ff2342a990cf731d5159361d
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: bc7bd086b9b724a1d888745a054e1d0b1ecc4f3f
+  XLPagerTabStrip: 0f9f94246c84e7cb60a06ca435da68ac75c8b56e
+
+PODFILE CHECKSUM: 38e4fa45663152d14fd4158d1ddb785421eea747
+
+COCOAPODS: 1.6.0.beta.1

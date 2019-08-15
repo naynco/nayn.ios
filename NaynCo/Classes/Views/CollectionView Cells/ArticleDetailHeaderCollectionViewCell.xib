@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderCell" id="bjl-je-urx" customClass="ArticleDetailHeaderCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MnI-2l-qLb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eBw-We-uSj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eBw-We-uSj" secondAttribute="height" multiplier="414:240" id="aia-KN-fH5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eBw-We-uSj" firstAttribute="leading" secondItem="MnI-2l-qLb" secondAttribute="leading" id="Aka-gE-8vj"/>
+                            <constraint firstAttribute="bottom" secondItem="eBw-We-uSj" secondAttribute="bottom" id="TsG-VU-86s"/>
+                            <constraint firstItem="eBw-We-uSj" firstAttribute="top" secondItem="MnI-2l-qLb" secondAttribute="top" id="ign-3a-Uis"/>
+                            <constraint firstAttribute="width" constant="414" id="jK4-Og-bXH"/>
+                            <constraint firstAttribute="trailing" secondItem="eBw-We-uSj" secondAttribute="trailing" id="lak-uW-DbR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MnI-2l-qLb" secondAttribute="bottom" id="TdE-jw-C9y"/>
+                <constraint firstItem="MnI-2l-qLb" firstAttribute="top" secondItem="bjl-je-urx" secondAttribute="top" id="VPu-OI-H8d"/>
+                <constraint firstItem="MnI-2l-qLb" firstAttribute="leading" secondItem="bjl-je-urx" secondAttribute="leading" id="nEI-jq-yjw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="bZY-xP-gMk"/>
+            <size key="customSize" width="375" height="247"/>
+            <connections>
+                <outlet property="articleHeaderImage" destination="eBw-We-uSj" id="53Q-3B-Nbk"/>
+                <outlet property="contentViewWidthConstraint" destination="jK4-Og-bXH" id="x5G-WW-0a9"/>
+            </connections>
+            <point key="canvasLocation" x="78.5" y="50.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
